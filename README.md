@@ -6,6 +6,7 @@ They allow instant, gapless switching between two synchronized audio files.
 ## Requirements
 - `mpv`
 - `socat`
+
 Install on Debian/Ubuntu: `sudo apt install mpv socat`
 
 ## Usage
