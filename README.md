@@ -7,7 +7,10 @@ They allow instant, gapless switching between two synchronized audio files.
 - `mpv`
 - `socat`
 
-Install on Debian/Ubuntu: `sudo apt install mpv socat`
+Install on: 
+- Debian/Ubuntu: `sudo apt install mpv socat`
+- Arch: `sudo pacman -S mpv socat`
+- Fedora: `sudo dnf install mpv socat`
 
 ## Usage
 1. Place a script (`ab.sh` or `abx.sh`) and **two audio files** in the same directory.
@@ -20,5 +23,6 @@ Install on Debian/Ubuntu: `sudo apt install mpv socat`
 - **G**: guess X (ABX only)
 - **Ctrl+C**: quit and show results
 
-## Sample File
-- Download a sample file for tests here: [helpguide.sony.net/high-res/sample1/v1/en](https://helpguide.sony.net/high-res/sample1/v1/en/index.html)
+## Websites do download sample files for test
+1. [https://helpguide.sony.net/high-res/sample1/v1/en/index.html](https://helpguide.sony.net/high-res/sample1/v1/en/index.html)
+2. [https://www.magle.dk/free-soundtracks.html](https://www.magle.dk/free-soundtracks.html)
